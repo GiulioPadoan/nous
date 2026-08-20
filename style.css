@@ -144,6 +144,12 @@ article p { font-size: 15.5px; margin: 0 0 16px; }
 
 .consenso a { color: var(--grey-700); text-decoration: underline; }
 
+.nota-click {
+  font-size: 13px;
+  color: var(--grey-400);
+  margin: 0 0 14px;
+}
+
 .checkup ul { text-align: left; font-size: 14.5px; margin: 14px 0; padding-left: 20px; }
 
 .social {
