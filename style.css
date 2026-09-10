@@ -105,6 +105,10 @@ article h2 {
 
 article p { font-size: 15.5px; margin: 0 0 16px; }
 
+article figure { margin: 20px 0 28px; }
+article figure img { width: 100%; height: auto; border-radius: 10px; display: block; }
+article figure figcaption { font-size: 13px; color: var(--grey-400); margin-top: 8px; text-align: center; }
+
 .cta {
   background: var(--cyan-pale);
   border-radius: 10px;
