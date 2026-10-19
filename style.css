@@ -209,3 +209,67 @@ footer.site .legale {
 .archivio-list a:hover { text-decoration: underline; }
 
 .archivio-list .meta { color: var(--grey-400); font-size: 13px; margin-top: 4px; }
+
+.avviso {
+  background: var(--giallo-pale, #FEF9EC);
+  border: 1px solid #F0D898;
+  border-left: 5px solid var(--gold);
+  border-radius: 10px;
+  padding: 18px 22px;
+  margin: 0 0 28px;
+}
+.avviso h2 {
+  color: var(--blu);
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 0 0 8px;
+}
+.avviso p { margin: 0; font-size: 15px; }
+
+.domande {
+  border: 1px solid #E2E8F0;
+  border-radius: 10px;
+  padding: 6px 22px;
+  margin: 18px 0;
+}
+.domande .riga {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid #EAECF0;
+  font-size: 15px;
+}
+.domande .riga:last-child { border-bottom: none; }
+.domande .scelta { white-space: nowrap; color: var(--grey-400); font-size: 14px; }
+
+.come-leggerle {
+  background: var(--giallo-pale, #FEF9EC);
+  border: 1px solid #F0D898;
+  border-radius: 10px;
+  padding: 14px 20px;
+  font-size: 14.5px;
+  margin: 0 0 20px;
+}
+
+.scheda {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin: 18px 0 28px;
+}
+@media (max-width: 600px) { .scheda { grid-template-columns: 1fr; } }
+.scheda .box {
+  border: 1px solid #E2E8F0;
+  border-radius: 10px;
+  padding: 16px 20px;
+}
+.scheda h3 { color: var(--blu); font-size: 17px; margin: 0 0 2px; }
+.scheda .sotto { color: var(--grey-400); font-size: 13px; margin: 0 0 10px; }
+.scheda .tit { font-size: 12px; letter-spacing: 0.06em; font-weight: bold; margin: 10px 0 4px; }
+.scheda .pro { color: #2F6B3B; }
+.scheda .contro { color: #A8321F; }
+.scheda ul { margin: 0; padding-left: 18px; font-size: 14px; }
+.scheda li { margin-bottom: 4px; }
